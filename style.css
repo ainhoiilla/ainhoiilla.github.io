@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 h1{
     text-align: center;
@@ -36,14 +38,17 @@ nav{
 .dropdownmenu li{
     float:left;
     position:relative;
-    width: auto;
+    
 }
 
+.dropdownmenu li:nth-child(2){
+    width: 292px;
+}
 .dropdownmenu a{
     background-color: #3d454a;
     color:white;
     display: block;
-    font: bold 12px/20px sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px 46px;
     text-align: center;
     text-decoration: none;
@@ -52,8 +57,37 @@ nav{
 .dropdownmenu li:hover a{
     background-color: black;
 }
+#submenu{
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index:1;
+}
+li:hover ul#submenu{
+    opacity: 1;
+    top: 40px;
+    padding: 0%;
+    visibility: visible;
+    width: 400px;
+}
+#submenu a:hover{
 
+    background: orange;
+   
+}
+#submenu li{
+    background-color: black;
+    width: 200px;
+    list-style: none;
 
+}
+
+#submenu li a{
+    margin:0px;
+    width: 200px;
+}
 
 /*Fin al Menú*/
 /*Sin float*/
