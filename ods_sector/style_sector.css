@@ -196,7 +196,6 @@ article ul li strong {
     background-image: url('../img/1.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -213,7 +212,6 @@ article ul li strong {
     background-image: url('../img/2.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -230,7 +228,6 @@ article ul li strong {
     background-image: url('../img/3.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -247,7 +244,7 @@ article ul li strong {
     background-image: url('../img/4.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -264,7 +261,7 @@ article ul li strong {
     background-image: url('../img/5.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -281,7 +278,7 @@ article ul li strong {
     background-image: url('../img/6.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -298,7 +295,7 @@ article ul li strong {
     background-image: url('../img/7.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -315,7 +312,7 @@ article ul li strong {
     background-image: url('../img/8.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -332,7 +329,7 @@ article ul li strong {
     background-image: url('../img/9.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -349,7 +346,7 @@ article ul li strong {
     background-image: url('../img/10.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -366,7 +363,7 @@ article ul li strong {
     background-image: url('../img/11.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -383,7 +380,7 @@ article ul li strong {
     background-image: url('../img/12.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -400,7 +397,7 @@ article ul li strong {
     background-image: url('../img/13.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -417,7 +414,7 @@ article ul li strong {
     background-image: url('../img/14.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -434,7 +431,7 @@ article ul li strong {
     background-image: url('../img/15.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -451,62 +448,12 @@ article ul li strong {
     background-image: url('../img/16.png'); 
     background-size: cover;
     background-position: center;
-    border: 2px solid #ccc;
+
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 10;
 }
-.ods-2:hover::after {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 86%;
-    top: 60%; 
-    transform: translateX(-50%);
-    width: 180px; 
-    height: 180px; 
-    background-image: url('../img/2.png'); 
-    background-size: cover;
-    background-position: center;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 10;
-}
-.ods-2:hover::after {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 86%;
-    top: 60%; 
-    transform: translateX(-50%);
-    width: 180px; 
-    height: 180px; 
-    background-image: url('../img/2.png'); 
-    background-size: cover;
-    background-position: center;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 10;
-}
-.ods-2:hover::after {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 86%;
-    top: 60%; 
-    transform: translateX(-50%);
-    width: 180px; 
-    height: 180px; 
-    background-image: url('../img/2.png'); 
-    background-size: cover;
-    background-position: center;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 10;
-}
+
 
 /*fin*/
 /* Pie de página */

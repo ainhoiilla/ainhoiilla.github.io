@@ -107,15 +107,20 @@ li:hover ul#submenu{
 /*Fin al Menú*/
 
 /* Estilo del contenedor principal */
-
+.contenedor{
+    text-align: center;
+    width: 100%;
+    border: solid red;
+}
 .partes {
-    position: relative;
+   
     float:left;
     background-color: #f7f7f7;
     border-radius: 8px;
-    width: 400px;
-    height: 770px;
-    margin: 20px 10px;
+    width: 25%;
+    height: 900px;
+    margin: 10px;
+    margin-left: 4.4%;
     padding: 20px;
     
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -149,16 +154,27 @@ li:hover ul#submenu{
     float: left;
 }
 .video{
-    float: left;
-    width:560; 
-    height: 340px;
+  
+  width: 100%;
+
+   text-align: center;
+
+  
+}
+
+
+.mapa{
    
+    width: 100%;
+    text-align: center
 }
 .mapa img{
     width: 1000PX;
 }
 /* Pie de página */
-footer {
+footer { 
+    float: left;
+ 
     background-color: #f4f4f9;
     padding: 20px;
     text-align: center;
