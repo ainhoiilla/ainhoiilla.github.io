@@ -142,6 +142,7 @@ div a{
 }
 /* Pie de página */
 footer {
+    float: left;
     background-color: #f4f4f9;
     padding: 20px;
     text-align: center;
