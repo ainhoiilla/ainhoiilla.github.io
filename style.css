@@ -30,7 +30,7 @@ h3 {
 }
 
 /*Menús y submenús*/
-nav{
+.dropdownmenu{
     
     height: 41px;
     background-color:#3d454a ;
@@ -39,7 +39,7 @@ nav{
     list-style: none;
     position: absolute;
     max-width: 100%;
-    left: 35%;
+    left: 32%;
     
     
 }
