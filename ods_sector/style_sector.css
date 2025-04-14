@@ -32,81 +32,79 @@ h3 {
 }
 
 /*Menús y submenús*/
-nav{
-    
-    height: 41px;
-    background-color:#3d454a ;
+
+nav {
+    grid-area:nav;
+    background: white;
+
+
 }
-.dropdownmenu ul{
+
+nav ul {
     list-style: none;
-    position: absolute;
-    max-width: 100%;
-    left: 35%;
-    
-    
-}
-.dropdownmenu ul, .dropdownmenu li{
-    margin: 0px;
-    padding:0px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-
-
-.dropdownmenu li{
-    float:left;
-    position:relative;
-    width: auto;
-}
-.dropdownmenu li:nth-child(2){
-    width: 292px;
+nav li {
+    position: relative;
 }
 
-.dropdownmenu a{
-    background-color: #3d454a;
-    color:white;
+nav li:nth-child(1) a { border-color: #e5243b; } 
+nav li:nth-child(2) > a { border-color: #dda63a; } 
+nav li:nth-child(3) a { border-color: #4c9f38; } 
+nav li:nth-child(4) a { border-color: #3f7e44; } 
+
+nav a {
+
     display: block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px 46px;
+    width: 180px; 
     text-align: center;
+    padding: 16px 0;
     text-decoration: none;
+    font-weight: 600;
+    color: #444;
+    transition: 0.3s ease-in-out;
+    border-top: 4px solid transparent;
 }
 
-.dropdownmenu li:hover a{
-    background-color: black;
+nav a:hover {
+    color: #0077c8;
+    background: #f0f0f0;
+    border-top: 4px solid #0077c8;
 }
-#submenu{
-    left: 0;
-    opacity: 0;
+
+nav ul ul {
     position: absolute;
-    top: 35px;
-    visibility: hidden;
-    z-index:1;
-}
-li:hover ul#submenu{
-    opacity: 1;
-    top: 40px;
-    padding: 0%;
-    visibility: visible;
-    width: 400px;
-}
-#submenu a:hover{
-
-    background: orange;
-   
-}
-#submenu li{
-    background-color: black;
-    width: 200px;
-    list-style: none;
-
+    top: 100%;
+    left: 0;
+    display: none;
+    min-width: 180px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    z-index: 999;
 }
 
-#submenu li a{
-    margin:0px;
-    width: 200px;
+nav li:hover > ul {
+    display: flex;
+    background-color: #e3f2fd;
 }
 
-/*Fin al Menú*/
+nav ul ul a {
+    padding: 12px 0;
+    color: #333;
+    border-top: none;
+}
+
+nav ul ul a:hover {
+    background: #e3f2fd;
+    color: #0077c8;
+}
+
+/*Fin al Menú */
 /* aside */
 aside {
     background-color: #ffffff; 
