@@ -13,6 +13,7 @@ body {
   grid-template-columns: 20% 1fr;
   grid-template-rows: auto auto auto 1fr auto;
   min-height: 100vh;
+  width: 100%;
   gap: 10px;
   border:solid;
 
@@ -172,6 +173,7 @@ main {
 .grid-contenido {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
   gap: 2rem;
   padding: 2rem;
 }
@@ -184,16 +186,38 @@ main {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   transition: transform 0.2s ease;
   text-align: center;
+ 
 }
 
 
 .grid-contenido section:hover {
   transform: scale(1.02);
 }
+.grid-contenido section:nth-child(2){
+  grid-row: span 3;
+}
 .grid-contenido section:nth-child(2) img{
-  width: 20%;
+  width: 25%;
+}
+/*Estilo de la tabla que hay dentro del 4.2 y 4.4.*/
+.grid-contenido section table{
+  padding: 0;
+  margin:3%
+}
+.grid-contenido section th{
+  color:white;
+
+  background-color: rgb(111, 177, 222);
+}
+.grid-contenido section td{
+  background-color: rgb(160, 208, 241);
+}
+/*Estilos de las listas*/
+.grid-contenido section li{
+  text-align: start;
 }
 
+/*Pie de pagina*/
 footer {
   grid-area: footer;
   background-color: #f4f4f9;
@@ -203,11 +227,12 @@ footer {
   color: #555;
 }
 
-
+/*Responsive*/
 @media (min-width: 600px) {
   .grid-contenido {
     grid-template-columns: 1fr 1fr;
   }
+  
 }
 
 
