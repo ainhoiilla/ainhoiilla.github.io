@@ -4,13 +4,13 @@ body {
   font-family: 'Segoe UI', sans-serif;
   display: grid;
   grid-template-areas: 
-    "header header"
-    "nav nav"
-    "titulo titulo"
-    "div div"
-    "main main"
-    "footer footer";
-  grid-template-columns: 20% 1fr;
+    "header"
+    "nav "
+    "titulo"
+    "div "
+    "main "
+    "footer ";
+  grid-template-columns: 1fr;
   grid-template-rows: auto auto auto 1fr auto;
   min-height: 100vh;
   width: 100%;
@@ -171,7 +171,7 @@ main {
 }
 .grid-contenido {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap: 2rem;
   padding: 2rem;
@@ -227,18 +227,23 @@ footer {
 }
 
 /*Responsive*/
-@media (min-width: 600px) {
+@media (max-width: 1100px) {
+  
   .grid-contenido {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   
 }
 
 
-@media (min-width: 900px) {
+@media (min-width: 1100px) and (max-width:1400px){
   .grid-contenido {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-}
+  .grid-contenido section:nth-child(2){
+    grid-row: span 6;
+  }
+} 
+
 
 
